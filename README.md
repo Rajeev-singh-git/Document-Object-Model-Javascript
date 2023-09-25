@@ -1,5 +1,7 @@
 # Document-Object-Model-Javascript
- ## Explanation of DOM concept 
+
+## Explanation of DOM concept
+
 The Document Object Model (DOM) is a cross-platform and language-independent interface that treats an HTML or XML document as a tree structure wherein each node is an object representing a part of the document. The DOM represents a document with a logical tree.
 
 In JavaScript, the DOM can be accessed using the `document` object. **The `document` object represents the entire HTML document, and it has properties and methods for accessing and manipulating the document's elements.**
@@ -22,7 +24,7 @@ Here are some examples of how to use the `document` object to access and manipul
 ## Handling Click Event
 
 ```javascript
- document.querySelector('.check').addEventListener('click', function () {
+document.querySelector('.check').addEventListener('click', function () {
   const guess = Number(document.querySelector('.guess').value);
   console.log(guess, typeof guess);
 });
